@@ -2,9 +2,7 @@
 
 D-matte by DAVX, made by Hossam Galal.
 
-`status.json` is read by the application once a day:
+`status.json` is read by the application for its update notice:
+`latest`, `notes` and `download` — the current version, what it brings, and where to get it.
 
-- `latest`, `notes`, `download` — the current version, and where to get it.
-- `revoked` — cancelled licences, listed by a hash of the machine code (never the code itself).
-
-Edited with `tools/make_licence.py`; do not edit by hand.
+Edited with `tools/make_licence.py --latest`; do not edit by hand.
